@@ -1,3 +1,4 @@
 # docker_gyala
-Docker container for Work
+<h3>Project's schema</h3>
+<br />
 <img src="Schema.png" />
