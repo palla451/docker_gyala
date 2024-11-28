@@ -3,22 +3,30 @@ services:
     container_name: proxy-app
     image: nginx:latest
     volumes:
-      - ./proxy_conf/:/etc/nginx/conf.d/
+      - ./nginx/proxy-app/:/etc/nginx/conf.d/
     depends_on:
       - nginx
     ports:
       - "80:80"
+      - "8181:3000"
+    networks:
+      - external-network  # Rete condivisa con il mondo esterno
+      - internal-network  # Rete per comunicare con i container interni
 
   nginx:
     container_name: nginx-app
     image: nginx:latest
     volumes:
-      - ./nginx_conf/conf.d/:/etc/nginx/conf.d/
-      - ./nginx_conf/fastcgi.conf/:/etc/nginx/fastcgi.conf
+      - ./nginx/nginx-app/conf.d/:/etc/nginx/conf.d/
+      - ./nginx/nginx-app/fastcgi.conf/:/etc/nginx/fastcgi.conf
     depends_on:
       - backend
+      - frontend
     ports:
-      - "80"
+      - "8080:80"
+    networks:
+      - internal-network  # Solo rete interna
+
 
   backend:
     container_name: backend-app
@@ -29,5 +37,24 @@ services:
       - ./www/backend:/var/www/backend
     ports:
       - "9000"
+    networks:
+      - internal-network  # Solo rete interna
+
+  frontend:
+    image: nginx:latest
+    container_name: frontend-app
+    volumes:
+      - ./nginx/frontend-app/conf.d/:/etc/nginx/conf.d/
+      - ./www/frontend/:/var/www/frontend/
+    ports:
+      - "3000:80"
+    networks:
+      - internal-network  # Solo rete interna
 
 
+networks:
+  external-network:
+    driver: bridge
+  internal-network: # Solo per comunicazione tra container interni
+    driver: bridge
+    internal: true
