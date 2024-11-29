@@ -1,0 +1,347 @@
+2024/11/29 15:05:15 [notice] 1#1: using the "epoll" event method
+2024/11/29 15:05:15 [notice] 1#1: nginx/1.27.3
+2024/11/29 15:05:15 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/11/29 15:05:15 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2024/11/29 15:05:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/11/29 15:05:15 [notice] 1#1: start worker processes
+2024/11/29 15:05:15 [notice] 1#1: start worker process 20
+2024/11/29 15:05:15 [notice] 1#1: start worker process 21
+2024/11/29 15:05:15 [notice] 1#1: start worker process 22
+2024/11/29 15:05:15 [notice] 1#1: start worker process 23
+2024/11/29 15:05:15 [notice] 1#1: start worker process 24
+2024/11/29 15:05:15 [notice] 1#1: start worker process 25
+2024/11/29 15:05:15 [notice] 1#1: start worker process 26
+2024/11/29 15:05:15 [notice] 1#1: start worker process 27
+2024/11/29 15:05:15 [notice] 1#1: start worker process 28
+2024/11/29 15:05:15 [notice] 1#1: start worker process 29
+2024/11/29 15:05:15 [notice] 1#1: start worker process 30
+2024/11/29 15:05:15 [notice] 1#1: start worker process 31
+2024/11/29 15:05:15 [notice] 1#1: start worker process 32
+2024/11/29 15:05:15 [notice] 1#1: start worker process 33
+2024/11/29 15:05:15 [notice] 1#1: start worker process 34
+2024/11/29 15:05:15 [notice] 1#1: start worker process 35
+2024/11/29 15:05:45 [error] 20#20: *1 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:06:15 [error] 21#21: *4 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:06:45 [error] 22#22: *7 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:07:15 [error] 23#23: *10 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:07:45 [error] 24#24: *13 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:08:15 [error] 25#25: *16 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:08:45 [error] 26#26: *19 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:09:15 [error] 27#27: *22 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:09:45 [error] 28#28: *25 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:10:15 [error] 29#29: *28 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:10:46 [error] 30#30: *31 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:11:16 [error] 31#31: *34 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:11:46 [error] 32#32: *37 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:12:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/11/29 15:12:04 [notice] 21#21: gracefully shutting down
+2024/11/29 15:12:04 [notice] 26#26: gracefully shutting down
+2024/11/29 15:12:04 [notice] 20#20: gracefully shutting down
+2024/11/29 15:12:04 [notice] 20#20: exiting
+2024/11/29 15:12:04 [notice] 22#22: gracefully shutting down
+2024/11/29 15:12:04 [notice] 22#22: exiting
+2024/11/29 15:12:04 [notice] 23#23: gracefully shutting down
+2024/11/29 15:12:04 [notice] 24#24: gracefully shutting down
+2024/11/29 15:12:04 [notice] 24#24: exiting
+2024/11/29 15:12:04 [notice] 25#25: gracefully shutting down
+2024/11/29 15:12:04 [notice] 25#25: exiting
+2024/11/29 15:12:04 [notice] 27#27: gracefully shutting down
+2024/11/29 15:12:04 [notice] 27#27: exiting
+2024/11/29 15:12:04 [notice] 21#21: exiting
+2024/11/29 15:12:04 [notice] 28#28: gracefully shutting down
+2024/11/29 15:12:04 [notice] 28#28: exiting
+2024/11/29 15:12:04 [notice] 29#29: gracefully shutting down
+2024/11/29 15:12:04 [notice] 29#29: exiting
+2024/11/29 15:12:04 [notice] 31#31: gracefully shutting down
+2024/11/29 15:12:04 [notice] 31#31: exiting
+2024/11/29 15:12:04 [notice] 30#30: gracefully shutting down
+2024/11/29 15:12:04 [notice] 30#30: exiting
+2024/11/29 15:12:04 [notice] 32#32: gracefully shutting down
+2024/11/29 15:12:04 [notice] 32#32: exiting
+2024/11/29 15:12:04 [notice] 33#33: gracefully shutting down
+2024/11/29 15:12:04 [notice] 33#33: exiting
+2024/11/29 15:12:04 [notice] 26#26: exiting
+2024/11/29 15:12:04 [notice] 34#34: gracefully shutting down
+2024/11/29 15:12:04 [notice] 34#34: exiting
+2024/11/29 15:12:04 [notice] 35#35: gracefully shutting down
+2024/11/29 15:12:04 [notice] 20#20: exit
+2024/11/29 15:12:04 [notice] 22#22: exit
+2024/11/29 15:12:04 [notice] 23#23: exiting
+2024/11/29 15:12:04 [notice] 24#24: exit
+2024/11/29 15:12:04 [notice] 25#25: exit
+2024/11/29 15:12:04 [notice] 27#27: exit
+2024/11/29 15:12:04 [notice] 21#21: exit
+2024/11/29 15:12:04 [notice] 28#28: exit
+2024/11/29 15:12:04 [notice] 29#29: exit
+2024/11/29 15:12:04 [notice] 31#31: exit
+2024/11/29 15:12:04 [notice] 30#30: exit
+2024/11/29 15:12:04 [notice] 32#32: exit
+2024/11/29 15:12:04 [notice] 33#33: exit
+2024/11/29 15:12:04 [notice] 26#26: exit
+2024/11/29 15:12:04 [notice] 34#34: exit
+2024/11/29 15:12:04 [notice] 35#35: exiting
+2024/11/29 15:12:04 [notice] 23#23: exit
+2024/11/29 15:12:04 [notice] 35#35: exit
+2024/11/29 15:12:04 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/11/29 15:12:04 [notice] 1#1: worker process 30 exited with code 0
+2024/11/29 15:12:04 [notice] 1#1: worker process 20 exited with code 0
+2024/11/29 15:12:04 [notice] 1#1: worker process 27 exited with code 0
+2024/11/29 15:12:04 [notice] 1#1: worker process 28 exited with code 0
+2024/11/29 15:12:04 [notice] 1#1: worker process 32 exited with code 0
+2024/11/29 15:12:04 [notice] 1#1: worker process 33 exited with code 0
+2024/11/29 15:12:04 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/29 15:12:04 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/11/29 15:12:04 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/11/29 15:12:04 [notice] 1#1: worker process 21 exited with code 0
+2024/11/29 15:12:04 [notice] 1#1: worker process 22 exited with code 0
+2024/11/29 15:12:04 [notice] 1#1: worker process 25 exited with code 0
+2024/11/29 15:12:04 [notice] 1#1: worker process 29 exited with code 0
+2024/11/29 15:12:04 [notice] 1#1: worker process 31 exited with code 0
+2024/11/29 15:12:04 [notice] 1#1: worker process 34 exited with code 0
+2024/11/29 15:12:04 [notice] 1#1: worker process 35 exited with code 0
+2024/11/29 15:12:04 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/29 15:12:04 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/11/29 15:12:04 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/11/29 15:12:04 [notice] 1#1: worker process 23 exited with code 0
+2024/11/29 15:12:04 [notice] 1#1: worker process 24 exited with code 0
+2024/11/29 15:12:04 [notice] 1#1: worker process 26 exited with code 0
+2024/11/29 15:12:04 [notice] 1#1: exit
+2024/11/29 15:12:38 [notice] 1#1: using the "epoll" event method
+2024/11/29 15:12:38 [notice] 1#1: nginx/1.27.3
+2024/11/29 15:12:38 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/11/29 15:12:38 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2024/11/29 15:12:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/11/29 15:12:38 [notice] 1#1: start worker processes
+2024/11/29 15:12:38 [notice] 1#1: start worker process 20
+2024/11/29 15:12:38 [notice] 1#1: start worker process 21
+2024/11/29 15:12:38 [notice] 1#1: start worker process 22
+2024/11/29 15:12:38 [notice] 1#1: start worker process 23
+2024/11/29 15:12:38 [notice] 1#1: start worker process 24
+2024/11/29 15:12:38 [notice] 1#1: start worker process 25
+2024/11/29 15:12:38 [notice] 1#1: start worker process 26
+2024/11/29 15:12:38 [notice] 1#1: start worker process 27
+2024/11/29 15:12:38 [notice] 1#1: start worker process 28
+2024/11/29 15:12:38 [notice] 1#1: start worker process 29
+2024/11/29 15:12:38 [notice] 1#1: start worker process 30
+2024/11/29 15:12:38 [notice] 1#1: start worker process 31
+2024/11/29 15:12:38 [notice] 1#1: start worker process 32
+2024/11/29 15:12:38 [notice] 1#1: start worker process 33
+2024/11/29 15:12:38 [notice] 1#1: start worker process 34
+2024/11/29 15:12:38 [notice] 1#1: start worker process 35
+2024/11/29 15:13:08 [error] 20#20: *1 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:13:38 [error] 21#21: *4 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:14:08 [error] 22#22: *7 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:14:38 [error] 23#23: *10 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:15:08 [error] 24#24: *13 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:15:38 [error] 25#25: *16 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:16:08 [error] 26#26: *19 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:16:38 [error] 27#27: *22 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:17:08 [error] 28#28: *25 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:17:38 [error] 29#29: *28 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:18:08 [error] 30#30: *31 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:18:38 [error] 31#31: *34 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:19:08 [error] 32#32: *37 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:19:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/11/29 15:19:11 [notice] 20#20: gracefully shutting down
+2024/11/29 15:19:11 [notice] 34#34: gracefully shutting down
+2024/11/29 15:19:11 [notice] 21#21: gracefully shutting down
+2024/11/29 15:19:11 [notice] 21#21: exiting
+2024/11/29 15:19:11 [notice] 22#22: gracefully shutting down
+2024/11/29 15:19:11 [notice] 23#23: gracefully shutting down
+2024/11/29 15:19:11 [notice] 23#23: exiting
+2024/11/29 15:19:11 [notice] 24#24: gracefully shutting down
+2024/11/29 15:19:11 [notice] 24#24: exiting
+2024/11/29 15:19:11 [notice] 25#25: gracefully shutting down
+2024/11/29 15:19:11 [notice] 25#25: exiting
+2024/11/29 15:19:11 [notice] 26#26: gracefully shutting down
+2024/11/29 15:19:11 [notice] 27#27: gracefully shutting down
+2024/11/29 15:19:11 [notice] 27#27: exiting
+2024/11/29 15:19:11 [notice] 28#28: gracefully shutting down
+2024/11/29 15:19:11 [notice] 28#28: exiting
+2024/11/29 15:19:11 [notice] 29#29: gracefully shutting down
+2024/11/29 15:19:11 [notice] 29#29: exiting
+2024/11/29 15:19:11 [notice] 30#30: gracefully shutting down
+2024/11/29 15:19:11 [notice] 30#30: exiting
+2024/11/29 15:19:11 [notice] 31#31: gracefully shutting down
+2024/11/29 15:19:11 [notice] 31#31: exiting
+2024/11/29 15:19:11 [notice] 32#32: gracefully shutting down
+2024/11/29 15:19:11 [notice] 33#33: gracefully shutting down
+2024/11/29 15:19:11 [notice] 35#35: gracefully shutting down
+2024/11/29 15:19:11 [notice] 20#20: exiting
+2024/11/29 15:19:11 [notice] 34#34: exiting
+2024/11/29 15:19:11 [notice] 21#21: exit
+2024/11/29 15:19:11 [notice] 22#22: exiting
+2024/11/29 15:19:11 [notice] 23#23: exit
+2024/11/29 15:19:11 [notice] 24#24: exit
+2024/11/29 15:19:11 [notice] 25#25: exit
+2024/11/29 15:19:11 [notice] 26#26: exiting
+2024/11/29 15:19:11 [notice] 27#27: exit
+2024/11/29 15:19:11 [notice] 28#28: exit
+2024/11/29 15:19:11 [notice] 29#29: exit
+2024/11/29 15:19:11 [notice] 30#30: exit
+2024/11/29 15:19:11 [notice] 31#31: exit
+2024/11/29 15:19:11 [notice] 32#32: exiting
+2024/11/29 15:19:11 [notice] 33#33: exiting
+2024/11/29 15:19:11 [notice] 35#35: exiting
+2024/11/29 15:19:11 [notice] 20#20: exit
+2024/11/29 15:19:11 [notice] 34#34: exit
+2024/11/29 15:19:11 [notice] 22#22: exit
+2024/11/29 15:19:11 [notice] 26#26: exit
+2024/11/29 15:19:11 [notice] 32#32: exit
+2024/11/29 15:19:11 [notice] 33#33: exit
+2024/11/29 15:19:11 [notice] 35#35: exit
+2024/11/29 15:19:11 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/11/29 15:19:11 [notice] 1#1: worker process 21 exited with code 0
+2024/11/29 15:19:11 [notice] 1#1: worker process 20 exited with code 0
+2024/11/29 15:19:11 [notice] 1#1: worker process 22 exited with code 0
+2024/11/29 15:19:11 [notice] 1#1: worker process 23 exited with code 0
+2024/11/29 15:19:11 [notice] 1#1: worker process 24 exited with code 0
+2024/11/29 15:19:11 [notice] 1#1: worker process 26 exited with code 0
+2024/11/29 15:19:11 [notice] 1#1: worker process 30 exited with code 0
+2024/11/29 15:19:11 [notice] 1#1: worker process 33 exited with code 0
+2024/11/29 15:19:11 [notice] 1#1: worker process 34 exited with code 0
+2024/11/29 15:19:11 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/29 15:19:11 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/11/29 15:19:11 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/11/29 15:19:11 [notice] 1#1: worker process 25 exited with code 0
+2024/11/29 15:19:11 [notice] 1#1: worker process 27 exited with code 0
+2024/11/29 15:19:11 [notice] 1#1: worker process 28 exited with code 0
+2024/11/29 15:19:11 [notice] 1#1: worker process 29 exited with code 0
+2024/11/29 15:19:11 [notice] 1#1: worker process 31 exited with code 0
+2024/11/29 15:19:11 [notice] 1#1: worker process 35 exited with code 0
+2024/11/29 15:19:11 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/29 15:19:11 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/11/29 15:19:11 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/11/29 15:19:11 [notice] 1#1: worker process 32 exited with code 0
+2024/11/29 15:19:11 [notice] 1#1: exit
+2024/11/29 15:19:44 [notice] 1#1: using the "epoll" event method
+2024/11/29 15:19:44 [notice] 1#1: nginx/1.27.3
+2024/11/29 15:19:44 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/11/29 15:19:44 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2024/11/29 15:19:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/11/29 15:19:44 [notice] 1#1: start worker processes
+2024/11/29 15:19:44 [notice] 1#1: start worker process 20
+2024/11/29 15:19:44 [notice] 1#1: start worker process 21
+2024/11/29 15:19:44 [notice] 1#1: start worker process 22
+2024/11/29 15:19:44 [notice] 1#1: start worker process 23
+2024/11/29 15:19:44 [notice] 1#1: start worker process 24
+2024/11/29 15:19:44 [notice] 1#1: start worker process 25
+2024/11/29 15:19:44 [notice] 1#1: start worker process 26
+2024/11/29 15:19:44 [notice] 1#1: start worker process 27
+2024/11/29 15:19:44 [notice] 1#1: start worker process 28
+2024/11/29 15:19:44 [notice] 1#1: start worker process 29
+2024/11/29 15:19:44 [notice] 1#1: start worker process 30
+2024/11/29 15:19:44 [notice] 1#1: start worker process 31
+2024/11/29 15:19:44 [notice] 1#1: start worker process 32
+2024/11/29 15:19:44 [notice] 1#1: start worker process 33
+2024/11/29 15:19:44 [notice] 1#1: start worker process 34
+2024/11/29 15:19:44 [notice] 1#1: start worker process 35
+2024/11/29 15:20:14 [error] 20#20: *1 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:20:44 [error] 21#21: *4 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:21:14 [error] 22#22: *7 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:21:44 [error] 23#23: *10 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:22:14 [error] 24#24: *13 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:22:44 [error] 25#25: *16 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:23:14 [error] 26#26: *19 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:23:44 [error] 27#27: *22 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:24:14 [error] 28#28: *25 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:24:44 [error] 29#29: *28 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:25:14 [error] 30#30: *31 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:25:44 [error] 31#31: *34 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:26:14 [error] 32#32: *37 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:26:44 [error] 33#33: *40 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:27:15 [error] 34#34: *43 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:27:45 [error] 35#35: *46 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:28:15 [error] 20#20: *49 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:28:45 [error] 20#20: *52 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:29:15 [error] 20#20: *55 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:29:45 [error] 20#20: *58 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:30:15 [error] 20#20: *61 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:30:45 [error] 20#20: *64 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:31:15 [error] 20#20: *67 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:31:45 [error] 20#20: *70 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:32:15 [error] 20#20: *73 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:32:45 [error] 20#20: *76 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:33:15 [error] 20#20: *79 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:33:45 [error] 20#20: *82 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:34:15 [error] 20#20: *85 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:34:45 [error] 20#20: *88 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:35:15 [error] 20#20: *91 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:35:45 [error] 20#20: *94 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:36:15 [error] 21#21: *97 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:36:45 [error] 21#21: *100 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:37:16 [error] 21#21: *103 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:37:46 [error] 21#21: *106 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:38:16 [error] 21#21: *109 "/var/www/backend/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2024/11/29 15:38:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/11/29 15:38:42 [notice] 20#20: gracefully shutting down
+2024/11/29 15:38:42 [notice] 25#25: gracefully shutting down
+2024/11/29 15:38:42 [notice] 21#21: gracefully shutting down
+2024/11/29 15:38:42 [notice] 21#21: exiting
+2024/11/29 15:38:42 [notice] 22#22: gracefully shutting down
+2024/11/29 15:38:42 [notice] 22#22: exiting
+2024/11/29 15:38:42 [notice] 23#23: gracefully shutting down
+2024/11/29 15:38:42 [notice] 23#23: exiting
+2024/11/29 15:38:42 [notice] 24#24: gracefully shutting down
+2024/11/29 15:38:42 [notice] 24#24: exiting
+2024/11/29 15:38:42 [notice] 26#26: gracefully shutting down
+2024/11/29 15:38:42 [notice] 26#26: exiting
+2024/11/29 15:38:42 [notice] 27#27: gracefully shutting down
+2024/11/29 15:38:42 [notice] 20#20: exiting
+2024/11/29 15:38:42 [notice] 28#28: gracefully shutting down
+2024/11/29 15:38:42 [notice] 28#28: exiting
+2024/11/29 15:38:42 [notice] 30#30: gracefully shutting down
+2024/11/29 15:38:42 [notice] 29#29: gracefully shutting down
+2024/11/29 15:38:42 [notice] 31#31: gracefully shutting down
+2024/11/29 15:38:42 [notice] 32#32: gracefully shutting down
+2024/11/29 15:38:42 [notice] 32#32: exiting
+2024/11/29 15:38:42 [notice] 34#34: gracefully shutting down
+2024/11/29 15:38:42 [notice] 34#34: exiting
+2024/11/29 15:38:42 [notice] 33#33: gracefully shutting down
+2024/11/29 15:38:42 [notice] 33#33: exiting
+2024/11/29 15:38:42 [notice] 35#35: gracefully shutting down
+2024/11/29 15:38:42 [notice] 25#25: exiting
+2024/11/29 15:38:42 [notice] 21#21: exit
+2024/11/29 15:38:42 [notice] 22#22: exit
+2024/11/29 15:38:42 [notice] 23#23: exit
+2024/11/29 15:38:42 [notice] 24#24: exit
+2024/11/29 15:38:42 [notice] 26#26: exit
+2024/11/29 15:38:42 [notice] 27#27: exiting
+2024/11/29 15:38:42 [notice] 20#20: exit
+2024/11/29 15:38:42 [notice] 28#28: exit
+2024/11/29 15:38:42 [notice] 30#30: exiting
+2024/11/29 15:38:42 [notice] 29#29: exiting
+2024/11/29 15:38:42 [notice] 31#31: exiting
+2024/11/29 15:38:42 [notice] 32#32: exit
+2024/11/29 15:38:42 [notice] 34#34: exit
+2024/11/29 15:38:42 [notice] 33#33: exit
+2024/11/29 15:38:42 [notice] 35#35: exiting
+2024/11/29 15:38:42 [notice] 25#25: exit
+2024/11/29 15:38:42 [notice] 27#27: exit
+2024/11/29 15:38:42 [notice] 30#30: exit
+2024/11/29 15:38:42 [notice] 29#29: exit
+2024/11/29 15:38:42 [notice] 31#31: exit
+2024/11/29 15:38:42 [notice] 35#35: exit
+2024/11/29 15:38:42 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/11/29 15:38:42 [notice] 1#1: worker process 20 exited with code 0
+2024/11/29 15:38:42 [notice] 1#1: worker process 21 exited with code 0
+2024/11/29 15:38:42 [notice] 1#1: worker process 25 exited with code 0
+2024/11/29 15:38:42 [notice] 1#1: worker process 26 exited with code 0
+2024/11/29 15:38:42 [notice] 1#1: worker process 30 exited with code 0
+2024/11/29 15:38:42 [notice] 1#1: worker process 31 exited with code 0
+2024/11/29 15:38:42 [notice] 1#1: worker process 34 exited with code 0
+2024/11/29 15:38:42 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/29 15:38:42 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/11/29 15:38:42 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/11/29 15:38:42 [notice] 1#1: worker process 29 exited with code 0
+2024/11/29 15:38:42 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/29 15:38:42 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/11/29 15:38:42 [notice] 1#1: worker process 22 exited with code 0
+2024/11/29 15:38:42 [notice] 1#1: worker process 23 exited with code 0
+2024/11/29 15:38:42 [notice] 1#1: worker process 24 exited with code 0
+2024/11/29 15:38:42 [notice] 1#1: worker process 27 exited with code 0
+2024/11/29 15:38:42 [notice] 1#1: worker process 28 exited with code 0
+2024/11/29 15:38:42 [notice] 1#1: worker process 32 exited with code 0
+2024/11/29 15:38:42 [notice] 1#1: worker process 33 exited with code 0
+2024/11/29 15:38:42 [notice] 1#1: worker process 35 exited with code 0
+2024/11/29 15:38:42 [notice] 1#1: exit
