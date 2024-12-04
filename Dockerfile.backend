@@ -42,28 +42,28 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
 RUN groupadd -g 1000 appuser && \
     useradd -u 1000 -g appuser -m appuser -s /bin/bash
 
-#Modifico l'utente di root per attribuire anche la cartella /html all'utente appuser
-USER root
-RUN chown -R appuser:appuser /var/www
-
-# Cambia l'utente corrente in 'appuser'
-USER appuser
+# Copia lo script e assegna i permessi
+COPY init.sh /var/www/init.sh
 
 # Imposta la directory di lavoro
 WORKDIR /var/www
 
-# Copia il codice sorgente dell'applicazione nella cartella del container
+#Modifico l'utente di root per attribuire anche la cartella /html all'utente appuser
+RUN chown -R appuser:appuser /var/www
 COPY --chown=appuser:appuser . /var/www/
-
-# Utilizza Composer per installare le dipendenze PHP
-#RUN composer install --no-interaction --optimize-autoloader --no-dev
 
 # Cambia i permessi dei file per assicurarsi che siano corretti
 RUN find /var/www -type f -exec chmod 644 {} \; && \
     find /var/www -type d -exec chmod 755 {} \;
 
+RUN chmod +x /var/www/init.sh && chown appuser:appuser /var/www/init.sh
+
 # Espone la porta 80 per permettere l'accesso al server Apache
 EXPOSE 9000
 
-# Comando per avviare PHP-FPM
-CMD ["php-fpm"]
+# Cambia l'utente corrente in 'appuser'
+USER appuser
+
+# Configura lo script come comando iniziale
+ENTRYPOINT ["/var/www/init.sh"]
+

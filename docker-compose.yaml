@@ -78,6 +78,8 @@ services:
           cpus: "0.5"
           memory: "256M"
     container_name: backend-app
+    depends_on:
+      - database
     restart: on-failure:2
     build:
       context: ./www
@@ -101,6 +103,7 @@ services:
       - LOG_LEVEL=debug
     networks:
       - internal-network  # Solo rete interna
+      - external-network  # Rete condivisa con il mondo esterno
 
   frontend:
     deploy:
@@ -143,7 +146,7 @@ services:
       DB_USERNAME: root
       DB_PASSWORD: password
     volumes:
-      - ./database:/var/lib/mysql
+      - ./database/mysql:/var/lib/mysql
     healthcheck:
       test: [ "CMD-SHELL", "mysqladmin ping -h localhost -u root -ppassword || exit 1" ]
       interval: 30s
