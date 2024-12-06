@@ -34,7 +34,6 @@ jobs:
           docker-compose run --rm proxy curl -f http://proxy-app:80
           docker-compose run --rm backend curl -f http://backend-app:9000/health
           docker-compose run --rm frontend curl -f http://frontend-app:3000
-
       # Step 5: Pulizia dei container
       - name: Tear down services
         run: docker-compose down
